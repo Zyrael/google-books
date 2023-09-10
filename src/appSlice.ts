@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import { Book } from './components/bookList/booksListSlice';
+import { Book } from './components/booksList/booksListSlice';
 
 export interface AppState {
   appState: 'loaded' | 'loading' | 'loading more' | 'error';

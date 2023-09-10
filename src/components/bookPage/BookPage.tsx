@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
-import { Book } from '../bookList/booksListSlice';
+import { Book } from '../booksList/booksListSlice';
 import { useEffect, useState } from 'react';
 
 export default function BookPage() {
