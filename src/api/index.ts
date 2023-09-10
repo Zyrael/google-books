@@ -65,7 +65,7 @@ export const fetchBooks = async (
   url.searchParams.set('orderBy', orderBy);
   url.searchParams.set(
     'key',
-    import.meta.env.DEV ? import.meta.env.VITE_APIKEY : import.meta.env.APIKEY
+    import.meta.env.DEV ? import.meta.env.VITE_APIKEY : process.env.APIKEY
   );
 
   const response = await fetch(url.href);
